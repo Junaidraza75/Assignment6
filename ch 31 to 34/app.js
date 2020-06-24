@@ -69,6 +69,27 @@
 // document.write(date);
 
 //Task 9
+
+var todaydate =new Date();
+var getDay= todaydate.getDate();
+var getMonth=todaydate.getMonth();
+var getYear=todaydate.getFullYear();
+var lastram=new Date("April 24,2020")
+var getDay1= lastram.getDate();
+var getMonth1=lastram.getMonth();
+var getYear1=lastram.getFullYear();
+// var firstramdan= new Date("April 24,2020");
+var a=(getDay+" " +getMonth+" "+ getYear)
+var b=(getDay1+" " +getMonth1+" "+ getYear1)
+document.write("Current Date is: "+ a+"<br>")
+
+document.write("1st Ramdan Date is: "+b+"<br> ")
+
+document.write( c +"days have passed since 1st Ramzan, "+getYear)
+
+ // document.write(firstramdan + "<br>")
+
+
 //Task 10
 //Task 11
 //Task 12
